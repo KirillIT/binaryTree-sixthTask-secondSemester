@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ru.vsu.cs.course1.tree.demo.TreeDemoFrame">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1117" height="587"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="377e2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="aa189">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="ecfec">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="6adf5" class="javax.swing.JTextArea" binding="textAreaInput">
+                    <constraints/>
+                    <properties>
+                      <background color="-10066330"/>
+                      <text value="Октябрь уж наступил — уж роща отряхает Последние листы с нагих своих ветвей; Дохнул осенний хлад — дорога промерзает. Журча еще бежит за мельницу ручей, Но пруд уже застыл; сосед мой поспешает В отъезжие поля с охотою своей, И страждут озими от бешеной забавы, И будит лай собак уснувшие дубравы.  II Теперь моя пора: я не люблю весны; Скучна мне оттепель; вонь, грязь — весной я болен; Кровь бродит; чувства, ум тоскою стеснены. Суровою зимой я более доволен, Люблю ее снега; в присутствии луны Как легкий бег саней с подругой быстр и волен, Когда под соболем, согрета и свежа, Она вам руку жмет, пылая и дрожа!  III Как весело, обув железом острым ноги, Скользить по зеркалу стоячих, ровных рек! А зимних праздников блестящие тревоги?.. Но надо знать и честь; полгода снег да снег, Ведь это наконец и жителю берлоги, Медведю, надоест. Нельзя же целый век Кататься нам в санях с Армидами младыми Иль киснуть у печей за стеклами двойными.  IV Ох, лето красное! любил бы я тебя, Когда б не зной, да пыль, да комары, да мухи. Ты, все душевные способности губя, Нас мучишь; как поля, мы страждем от засухи; Лишь как бы напоить, да освежить себя — Иной в нас мысли нет, и жаль зимы старухи, И, проводив ее блинами и вином, Поминки ей творим мороженым и льдом.  V Дни поздней осени бранят обыкновенно, Но мне она мила, читатель дорогой, Красою тихою, блистающей смиренно. Так нелюбимое дитя в семье родной К себе меня влечет. Сказать вам откровенно, Из годовых времен я рад лишь ей одной, В ней много доброго; любовник не тщеславный, Я нечто в ней нашел мечтою своенравной.  VI Как это объяснить? Мне нравится она, Как, вероятно, вам чахоточная дева Порою нравится. На смерть осуждена, Бедняжка клонится без ропота, без гнева. Улыбка на устах увянувших видна; Могильной пропасти она не слышит зева; Играет на лице еще багровый цвет. Она жива еще сегодня, завтра нет.  VII Унылая пора! очей очарованье! Приятна мне твоя прощальная краса — Люблю я пышное природы увяданье, В багрец и в золото одетые леса, В их сенях ветра шум и свежее дыханье, И мглой волнистою покрыты небеса, И редкий солнца луч, и первые морозы, И отдаленные седой зимы угрозы."/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </scrollpane>
+        </children>
+      </scrollpane>
+      <grid id="c5ae0" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="70c0b" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="fdd" class="javax.swing.JTextField" binding="textFieldN">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="5"/>
+                </properties>
+              </component>
+              <component id="cc964" class="javax.swing.JTextField" binding="textFieldK">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="5"/>
+                </properties>
+              </component>
+              <component id="9659e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Кол-во слов N"/>
+                </properties>
+              </component>
+              <component id="d12c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Минимальная длина слова K"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="aa0a7" class="javax.swing.JButton" binding="buttonDo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Найти"/>
+            </properties>
+          </component>
+          <hspacer id="6799d">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <component id="77e4a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Входной текст"/>
+        </properties>
+      </component>
+      <scrollpane id="c7e37">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2020a" class="javax.swing.JTextArea" binding="textAreaOutDefult">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="cc990">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4a712" class="javax.swing.JTextArea" binding="textAreaOutHandMake">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="20ea7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Самые частовстречаемые слова дефолт мап"/>
+        </properties>
+      </component>
+      <component id="199b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Самые частовстречаемые слова рукотворная мап"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
